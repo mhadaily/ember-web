@@ -20,7 +20,9 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
-  app.import(app.bowerDirectory + '/theme-marketing/dist/toolkit.js');
+  // app.import(app.bowerDirectory + '/theme-marketing/dist/toolkit.js');
+  app.import(app.bowerDirectory + '/wow/dist/wow.min.js');
+  app.import(app.bowerDirectory + '/owl.carousel/dist/owl.carousel.min.js');
 
   return app.toTree();
 };
