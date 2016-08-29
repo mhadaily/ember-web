@@ -569,20 +569,25 @@ ol ul {
  * -------------------------------------------------------------------------- */
 
 .page-header {
-  margin-top: 20px;
+  margin-top: 80px;
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
   font-size: 36px;
   font-weight: 300;
-  color: #515151;
+  color: #fff;
+  text-align: center;
 }
 
 .page-header h1 {
   margin: 0;
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 500;
   color: #515151;
+}
+
+.header .page-header h1 {
+  color: #fff;
 }
 
 .page-header h1 small {
@@ -902,10 +907,14 @@ textarea {
 
 .wide .header,
 .boxed .header > .container {
-  background-color: transparent;
   position: relative;
   padding-top: 40px;
   padding-bottom: 40px;
+  background-attachment: fixed;
+  background-image: url('../img/preview/background-img-slider.jpg');
+  background-size: cover !important;
+  background-position: 50% 0 !important;
+  background-repeat: no-repeat;
 }
 
 .sub-page .header {
@@ -1152,7 +1161,7 @@ textarea {
 /*bs3 reset */
 
 .sf-menu a {
-  padding: 10px 15px;
+  padding: 20px 9px;
 }
 
 .sf-menu a {

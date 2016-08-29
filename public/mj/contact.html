@@ -39,7 +39,7 @@
   <!-- Wrap all content -->
   <div class="wrapper">
     <!-- HEADER -->
-    <header class="header fixed">
+    <header class="header">
       <div class="container">
         <div class="header-wrapper clearfix">
           <!-- Logo -->
@@ -65,53 +65,82 @@
           </nav>
           <!-- /Navigation -->
         </div>
+        <div class="page-header">
+          <h1> Contact Us</h1>
+        </div>
       </div>
     </header>
     <!-- /HEADER -->
     <!-- Content area -->
     <div class="content-area">
       <div id="main">
-        <!-- SLIDER -->
-        <section class="page-section no-padding background-img-slider">
-          <div class="container">
-            <div id="main-slider" class="owl-carousel owl-theme">
-              <!-- Slide -->
-              <div class="item page text-center slide0">
-                <div class="caption">
-                  <div class="container">
-                    <div class="div-table">
-                      <div class="div-cell">
-                        <h2 class="caption-title" data-animation="fadeInDown" data-animation-delay="100"><span>Welcome to Life Tech</span></h2>
-                        <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300">IT'S NOT ABOUT GETTING INTO THE WEB ANYMORE!</h3>
-                        <p class="caption-text">
-                          <a class="btn btn-theme  scroll-to" href="about.html" data-animation="flipInY" data-animation-delay="600"> Read More <i class="fa fa-arrow-circle-right"></i></a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide -->
-              <div class="item page text-center slide1">
-                <div class="caption">
-                  <div class="container">
-                    <div class="div-table">
-                      <div class="div-cell">
-                        <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300">It's about connecting your customers and business partners </h3>
-                        <h2 class="caption-title" data-animation="fadeInDown" data-animation-delay="100"><span>wherever they are ... and doing business</span></h2>
-                        <p class="caption-text">
-                          <a class="btn btn-theme  scroll-to" href="about.html" data-animation="flipInY" data-animation-delay="600"> About Us <i class="fa fa-arrow-circle-right"></i></a>
-                          <a class="btn btn-theme  btn-theme-transparent-white" href="https://www.youtube.com/watch?v=n4ur8JLSXMg" data-gal="prettyPhoto" data-animation="flipInY" data-animation-delay="900">Watch video</a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <!-- PAGE LOCATION -->
+        <section class="page-section" id="location">
+          <div class="container full-width gmap-background">
+            <div class="container">
+              <div class="on-gmap color">
+                <h1 class="section-title">
+                            <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa crcle fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
+                            <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Our Location</span>
+                        </h1>
+                <p data-animation="fadeInUp" data-animation-delay="200" class="text-uppercase">
+                  <br/> Unit A-7-1, 7th Floor,
+                  <br/>Megan Avenue 1, Block A,
+                  <br/>189, Jalan Tun Razak,
+                  <br/>50400 Kuala Lumpur,Malaysia.</p>
+                <p>
+                  <br/> GENERAL LINE : (603) 2163 6633
+                  <br/> NOC : (603) 2163 2168
+                  <br/> FACSIMILE : (603) 2162 6162</p>
+                <p><a href="mailto:info@lifetech.com">EMAIL : info@lifetech.com.my</a></p>
               </div>
             </div>
+            <!-- Google map -->
+            <div class="google-map">
+              <div id="map-canvas"></div>
+            </div>
+            <!-- /Google map -->
           </div>
         </section>
-        <!-- /SLIDER -->
+        <!-- /PAGE LOCATION -->
+        <!-- PAGE CONTACT -->
+        <section class="page-section color" id="contact">
+          <div class="container">
+            <h1 class="section-title">
+                    <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa crcle fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
+                    <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Contact Us <small>/ Write us your message today</small></span>
+                </h1>
+            <!-- Contact form -->
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-6">
+              <form name="af-form" method="post" action="#contact" class="af-form row" id="af-form">
+                <div class="col-sm-12 af-outer af-required">
+                  <div class="form-group af-inner">
+                    <input type="text" name="name" id="name" placeholder="Type Your Name..." value="" size="30" data-toggle="tooltip" title="Name is required" class="form-control placeholder" />
+                  </div>
+                </div>
+                <div class="col-sm-12 af-outer af-required">
+                  <div class="form-group af-inner">
+                    <input type="text" name="email" id="email" placeholder="Type Your Email..." value="" size="30" data-toggle="tooltip" title="Email is required" class="form-control placeholder" />
+                  </div>
+                </div>
+                <div class="col-sm-12 af-outer af-required">
+                  <div class="form-group af-inner">
+                    <textarea name="message" id="input-message" placeholder="Type Your Message..." rows="4" cols="50" data-toggle="tooltip" title="Message is required" class="form-control placeholder"></textarea>
+                  </div>
+                </div>
+                <div class="col-sm-12 af-outer af-required text-center">
+                  <div class="form-group af-inner">
+                    <input type="submit" name="submit" class="form-button form-button-submit btn btn-theme btn-theme-transparent" id="submit_btn" value="Send message" />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- /Contact form -->
+          </div>
+        </section>
+        <!-- /PAGE CONTACT -->
       </div>
     </div>
     <!-- /Content area -->
