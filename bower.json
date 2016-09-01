@@ -5,6 +5,7 @@
     "ember-cli-shims": "0.1.1",
     "ember-qunit-notifications": "0.1.0",
     "wow": "^1.1.2",
-    "owl.carousel": "^2.1.6"
+    "owl.carousel": "^2.1.6",
+    "theme-marketing": "git@bitbucket.org:squarrific/theme-marketing.git"
   }
 }
