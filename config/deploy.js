@@ -25,14 +25,17 @@ module.exports = function(deployTarget) {
     accessKeyId: process.env['AWS_ACCESS_KEY_ID'],
     secretAccessKey: process.env['AWS_SECRET_ACCESS_KEY'],
     bucket: 'www.lifetech.com.my',
-    region: 'ap-southeast-1'
+    region: 'ap-southeast-1',
+    allowOverwrite: true
   }
 
   ENV['s3-index'] = {
     accessKeyId: process.env['AWS_ACCESS_KEY_ID'],
     secretAccessKey: process.env['AWS_SECRET_ACCESS_KEY'],
     bucket: 'www.lifetech.com.my',
-    region: 'ap-southeast-1'
+    region: 'ap-southeast-1',
+    allowOverwrite: true
+
   }
 
   // Note: if you need to build some configuration asynchronously, you can return
