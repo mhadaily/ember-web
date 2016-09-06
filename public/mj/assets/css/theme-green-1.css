@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #141f23;
+  /*color: #141f23;*/
 }
 
 h1 .fa,
@@ -213,8 +213,8 @@ hr.page-divider.single {
 .btn-theme-transparent-grey:focus,
 .btn-theme-transparent-grey:active {
   background-color: transparent;
-  border-color: #435469;
-  color: #435469;
+  border-color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 .btn-theme-transparent-grey:hover {
