@@ -32,7 +32,7 @@ module.exports = function(deployTarget) {
   ENV['s3-index'] = {
     accessKeyId: process.env['AWS_ACCESS_KEY_ID'],
     secretAccessKey: process.env['AWS_SECRET_ACCESS_KEY'],
-    bucket: 'www.lifetech.com.my',
+    bucket:  process.env['BUCKET'],
     region: 'ap-southeast-1',
     allowOverwrite: true
 
